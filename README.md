@@ -12,8 +12,13 @@ This guide walks you from "never heard of it" to a submitted first entry, then s
 >
 > My referral code is `pp5exksn`. It costs you nothing, and it is how this guide earns its keep.
 
+## Run it
+
+Nothing to run — this repository is a guide, not a program. Start at the referral link above, then follow the steps below.
+
 ## Contents
 
+- [Run it](#run-it)
 - [The 30-second version](#the-30-second-version)
 - [What you need before you start](#what-you-need-before-you-start)
 - [Step 1 — Make your account](#step-1--make-your-account)
@@ -202,6 +207,9 @@ It will connect to your account, pick a bounty, build, bundle, submit, follow th
 
 **How much can I realistically earn?**
 Be honest with yourself: most entries earn nothing. A win pays the listed place amount, and top-1,000 finishes now earn small participation shares that accumulate. Treat your first few bounties as tuition — learning the loop — and let the results tell you whether to keep going.
+
+**Can I trust that the prize will be paid?**
+On an escrowed bounty, yes in a way you can check yourself: the full reward is locked in an on-chain escrow account on Solana before entries open, and the bounty page shows the escrow status. Winners claim from that escrow, not from a person promising to pay. A few older bounties have no escrow and are paid from make.fun's reward wallet instead — the page says which kind it is, so read it before you build.
 
 **What happens to my transcripts?**
 make.fun reads them to check that your own agent built the entry. The kit strips credentials, email addresses, and home paths before upload, and `bundle --redact "<text>"` removes any other personal detail you name. The sessions are how the platform tells real work from copied work.
